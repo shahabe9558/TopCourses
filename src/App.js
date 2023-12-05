@@ -30,7 +30,7 @@ const fetchData = async () => {
    fetchData();
   },[]);
     return (
-      <div className="App">
+      <div className="App bg-slate-600 text-white">
           <Navbar/>
           <Filter filterData={filterData} category={category} setCategory={setCategory}/>
           <div>
